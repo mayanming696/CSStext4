@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+	*{  
+		margin:0;
+		padding: 0;
+	}
+			body{ background-color:#eff0f4;
+				}
+		.header{
+			height: 50px;
+			width: 100vw; 
+			text-align: center; 
+			position:fixed;left: 0; top: 0; 
+			background: #5fc0cd;
+				}
+		.left{ 
+			line-height: 50px;
+			float: left;
+			padding-left: 20px;
+				}
+		.mid{
+			line-height:50px
+			}
+		span{
+			color:#FFFFFF;
+			}			
+		.right{
+			float: right; 
+			padding-right: 20px; 
+			line-height: 50px; 
+				}
+		.main {
+			margin-top: 10px;
+			position: relative;top:50px;
+				}					
+		.main .phone div img{
+			float:left; padding-left: 10px; 
+							}
+		.power{
+			margin-top:10px; 
+			background-color: #ffffff;
+			padding: 10px;height: 50px;
+				}
+		.phone{
+			background-color:#ffffff;
+			padding: 10px;
+			height: 50px;}
+		.main .power div img{ float:left;
+			padding-left: 10px; }
+		.phone input{
+			margin-left:40px; 
+			padding-left: 20px;
+			height: 41px; 
+			line-height: 41px; 
+			width:60vw;
+			border: 0px;
+			outline:none;cursor: pointer;
+			font-size: 18px;
+					}
+		.phone input{
+				border-left: 1px solid #eaedee;
+	
+}
+	
+
+		.power input{ 
+			margin-left:40px; 
+			padding-left: 20px;
+			height: 43px;
+			line-height: 43px; width:60vw;
+			border: 0px;
+			outline:none;
+			cursor: pointer; 
+			font-size: 18px;
+					}	
+	.power input{
+			border-left: 1px solid #eaedee;
+}
+		.edit{ 
+			position: relative;top:50px;
+			height:60px;
+			width: 100vw; 
+			text-align: center;
+			background-color: #5fc0cd;
+			color: #FFFFFF;line-height: 60px;
+			margin-top: 10px;
+			letter-spacing:20px;
+			padding-left: 10px; 
+			border: 0px; 
+			font-size: 18px;
+				}
+		.name-input:valid + .clear-input {
+			display: block;
+			
+										}
+
+		a{
+			float:right;
+			margin-top: 55px;
+			}
+		a:link{ 
+			color:#5fc0cd;
+			z-index: -99;
+				}
